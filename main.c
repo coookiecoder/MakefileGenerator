@@ -6,15 +6,12 @@
 /*   By: abareux <abareux@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/29 17:38:58 by abareux           #+#    #+#             */
-/*   Updated: 2024/02/04 16:09:19 by abareux          ###   ########.fr       */
+/*   Updated: 2024/02/04 21:58:22 by abareux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <fcntl.h>
 #include <unistd.h>
-#include <limits.h>
-
-#define ENTRY 1024
 
 size_t	ft_strlen(const char *s)
 {
